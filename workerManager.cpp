@@ -445,6 +445,8 @@ void WorkerManager::Sort_Emp()
     if (this->m_FileIsEmpty)
     {
         cout<<"文件不存在或者记录为空"<<endl;
+        system("pause");
+        system("cls");
     }
     else
     {
